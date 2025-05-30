@@ -1,0 +1,4 @@
+venv
+CLIP/venv
+MVLIP/checkpoints
+MVLIP/imagenet-mini
