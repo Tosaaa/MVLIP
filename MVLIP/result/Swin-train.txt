@@ -1,0 +1,77 @@
+Some weights of TimmWrapperForImageClassification were not initialized from the model checkpoint at timm/swin_base_patch4_window7_224.ms_in22k_ft_in1k and are newly initialized because the shapes did not match:
+
+- timm_model.head.fc.bias: found shape torch.Size([1000]) in the checkpoint and torch.Size([512]) in the model instantiated
+- timm_model.head.fc.weight: found shape torch.Size([1000, 1024]) in the checkpoint and torch.Size([512, 1024]) in the
+model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+words.txt에서 82115개 클래스 매핑을 로딩했습니다.
+words.txt에서 82115개 클래스 매핑을 로딩했습니다.
+클래스 수: 1000
+훈련 샘플 수: 34745
+검증 샘플 수: 3923
+클래스 폴더명 (처음 10개): ['n01440764', 'n01443537', 'n01484850', 'n01491361', 'n01494475', 'n01496331', 'n01498041',
+'n01514668', 'n01514859', 'n01518878']
+클래스 이름 (처음 10개): ['tench', 'goldfish', 'great white shark', 'tiger shark', 'hammerhead', 'electric ray', 'stingray', 'cock', 'hen', 'ostrich']
+훈련 배치 수: 1085
+검증 배치 수: 123
+이미지 배치 크기: torch.Size([32, 3, 224, 224])
+텍스트 배치 크기: torch.Size([32, 77])
+라벨 배치 크기: torch.Size([32])
+Epoch 1/20: 100%|██████████████████████████████████████████████████████| 1085/1085 [05:12<00:00, 3.48it/s, loss=0.624]Epoch 1, Average Loss: 1.5897
+새로운 최고 성능 모델 저장: 1.5897
+Epoch 2/20: 100%|██████████████████████████████████████████████████████| 1085/1085 [05:11<00:00, 3.49it/s, loss=0.902]Epoch 2, Average Loss: 0.4623
+새로운 최고 성능 모델 저장: 0.4623
+Epoch 3/20: 100%|█████████████████████████████████████████████████████| 1085/1085 [05:09<00:00, 3.50it/s, loss=0.0525]Epoch 3, Average Loss: 0.2931
+새로운 최고 성능 모델 저장: 0.2931
+Epoch 4/20: 100%|█████████████████████████████████████████████████████| 1085/1085 [05:11<00:00, 3.48it/s, loss=0.0493]Epoch 4, Average Loss: 0.2246
+새로운 최고 성능 모델 저장: 0.2246
+Epoch 5/20: 100%|██████████████████████████████████████████████████████| 1085/1085 [05:09<00:00, 3.50it/s, loss=0.207]Epoch 5, Average Loss: 0.1801
+새로운 최고 성능 모델 저장: 0.1801
+Epoch 6/20: 100%|██████████████████████████████████████████████████████| 1085/1085 [05:11<00:00, 3.49it/s, loss=0.137]Epoch 6, Average Loss: 0.1569
+새로운 최고 성능 모델 저장: 0.1569
+Epoch 7/20: 100%|█████████████████████████████████████████████████████| 1085/1085 [05:12<00:00, 3.47it/s, loss=0.0954]Epoch 7, Average Loss: 0.1286
+새로운 최고 성능 모델 저장: 0.1286
+Epoch 8/20: 100%|█████████████████████████████████████████████████████| 1085/1085 [05:11<00:00, 3.48it/s, loss=0.0741]Epoch 8, Average Loss: 0.1121
+새로운 최고 성능 모델 저장: 0.1121
+Epoch 9/20: 100%|██████████████████████████████████████████████████████| 1085/1085 [05:09<00:00, 3.51it/s, loss=0.203]Epoch 9, Average Loss: 0.0954
+새로운 최고 성능 모델 저장: 0.0954
+Epoch 10/20: 100%|███████████████████████████████████████████████████| 1085/1085 [05:10<00:00, 3.49it/s, loss=0.00247]Epoch 10, Average Loss: 0.0838
+새로운 최고 성능 모델 저장: 0.0838
+Epoch 11/20: 100%|████████████████████████████████████████████████████| 1085/1085 [05:09<00:00, 3.51it/s, loss=0.0129]Epoch 11, Average Loss: 0.0757
+새로운 최고 성능 모델 저장: 0.0757
+Epoch 12/20: 100%|████████████████████████████████████████████████████| 1085/1085 [05:11<00:00, 3.49it/s, loss=0.0153]Epoch 12, Average Loss: 0.0620
+새로운 최고 성능 모델 저장: 0.0620
+Epoch 13/20: 100%|█████████████████████████████████████████████████████| 1085/1085 [05:14<00:00, 3.45it/s, loss=0.173]Epoch 13, Average Loss: 0.0529
+새로운 최고 성능 모델 저장: 0.0529
+Epoch 14/20: 100%|████████████████████████████████████████████████████| 1085/1085 [05:12<00:00, 3.47it/s, loss=0.0589]Epoch 14, Average Loss: 0.0460
+새로운 최고 성능 모델 저장: 0.0460
+Epoch 15/20: 100%|████████████████████████████████████████████████████| 1085/1085 [05:15<00:00, 3.44it/s, loss=0.0572]Epoch 15, Average Loss: 0.0468
+Epoch 16/20: 100%|██████████████████████████████████████████████████| 1085/1085 [05:28<00:00, 3.31it/s, loss=0.000609]Epoch 16, Average Loss: 0.0427
+새로운 최고 성능 모델 저장: 0.0427
+Epoch 17/20: 100%|█████████████████████████████████████████████████████| 1085/1085 [05:28<00:00, 3.31it/s, loss=0.142]Epoch 17, Average Loss: 0.0396
+새로운 최고 성능 모델 저장: 0.0396
+Epoch 18/20: 100%|██████████████████████████████████████████████████| 1085/1085 [05:28<00:00, 3.30it/s, loss=0.000916]Epoch 18, Average Loss: 0.0352
+새로운 최고 성능 모델 저장: 0.0352
+Epoch 19/20: 100%|████████████████████████████████████████████████████| 1085/1085 [05:28<00:00, 3.30it/s, loss=0.0243]Epoch 19, Average Loss: 0.0371
+Epoch 20/20: 100%|███████████████████████████████████████████████████| 1085/1085 [05:12<00:00, 3.48it/s, loss=0.00147]Epoch 20, Average Loss: 0.0356
+훈련 완료. 모델이 ./checkpoints/Swin-fp32에 저장되었습니다.
+- Eval
+    
+    Generating embeddings for 10000 class prompts (Total Classes: 1000).
+    Encoding text prompts: 100%|███████████████████████████████████████████████████████████| 79/79 [00:04<00:00, 16.66it/s]Starting zero-shot classification evaluation on 3923 images...
+    Initial GPU Memory Usage: 2394.74 MB
+    Evaluating images: 100%|█████████████████████████████████████████████████████████████| 123/123 [00:08<00:00, 14.02it/s]
+    --- Evaluation Summary ---
+    Total Samples Evaluated: 3923
+    Total Evaluation Time: 8.85 seconds
+    Average Evaluation Loss: 1.8673
+    Throughput: 443.51 samples/second
+    Max GPU Memory Usage During Evaluation: 2405.76 MB (after encoding images)
+    
+    ```
+                                precision    recall  f1-score   support
+                      accuracy                           0.68      3923
+                     macro avg       0.70      0.68      0.66      3923
+                  weighted avg       0.71      0.68      0.67      3923
+    
+    ```

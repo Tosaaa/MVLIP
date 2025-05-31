@@ -1,0 +1,21 @@
+- CLIP-fp16
+    
+    Generating embeddings for 10000 class prompts (Total Classes: 1000).
+    Encoding text prompts: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:02<00:00, 32.93it/s]Starting zero-shot classification evaluation on 3923 images...
+    Initial GPU Memory Usage: 374.99 MB
+    Evaluating images: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 123/123 [00:08<00:00, 14.72it/s]
+    --- Evaluation Summary ---
+    Total Samples Evaluated: 3923
+    Total Evaluation Time: 8.36 seconds
+    Average Evaluation Loss: 1.6702
+    Throughput: 469.22 samples/second
+    Max GPU Memory Usage During Evaluation: 385.96 MB (after encoding images)
+    
+
+```
+		                            precision    recall  f1-score   support
+                      accuracy                           0.59      3923
+                     macro avg       0.60      0.60      0.57      3923
+                  weighted avg       0.62      0.59      0.57      3923
+
+```

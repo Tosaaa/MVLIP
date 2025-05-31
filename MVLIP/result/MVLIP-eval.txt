@@ -1,0 +1,332 @@
+--- Evaluation Summary ---
+Total Samples Evaluated: 3923
+Total Evaluation Time: 8.72 seconds
+Average Evaluation Loss: 2.2030
+Throughput: 449.84 samples/second
+Max GPU Memory Usage During Evaluation: 2532.19 MB (after encoding images)
+
+Classification Report Summary:
+Accuracy: 0.4316
+Macro Avg - Precision: 0.4116, Recall: 0.4272, F1-score: 0.3789
+Weighted Avg - Precision: 0.4268, Recall: 0.4316, F1-score: 0.3891
+
+
+Generating embeddings for 10000 class prompts (Total Classes: 1000).
+Encoding text prompts: 100%|█████████████████████████████████████████████████████████| 79/79 [00:04<00:00, 16.76it/s]Starting zero-shot classification evaluation on 3923 images...
+Initial GPU Memory Usage: 2521.83 MB
+Evaluating images: 100%|███████████████████████████████████████████████████████████| 123/123 [00:07<00:00, 16.71it/s]
+--- Evaluation Summary ---
+Total Samples Evaluated: 3923
+Total Evaluation Time: 7.38 seconds
+Average Evaluation Loss: 1.7131
+Throughput: 531.25 samples/second
+Max GPU Memory Usage During Evaluation: 2532.85 MB (after encoding images)
+
+Classification Report Summary:
+Accuracy: 0.5639
+Macro Avg - Precision: 0.5554, Recall: 0.5604, F1-score: 0.5190
+Weighted Avg - Precision: 0.5744, Recall: 0.5639, F1-score: 0.5311
+
+
+Generating embeddings for 10000 class prompts (Total Classes: 1000).
+Encoding text prompts: 100%|█████████████████████████████████████████████████████████| 79/79 [00:04<00:00, 15.88it/s]Starting zero-shot classification evaluation on 3923 images...
+Initial GPU Memory Usage: 2518.96 MB
+Evaluating images: 100%|███████████████████████████████████████████████████████████| 123/123 [00:07<00:00, 16.43it/s]
+--- Evaluation Summary ---
+Total Samples Evaluated: 3923
+Total Evaluation Time: 7.51 seconds
+Average Evaluation Loss: 1.7592
+Throughput: 522.08 samples/second
+Max GPU Memory Usage During Evaluation: 2530.94 MB (after encoding images)
+
+Classification Report Summary:
+Accuracy: 0.5690
+Macro Avg - Precision: 0.5750, Recall: 0.5670, F1-score: 0.5311
+Weighted Avg - Precision: 0.5966, Recall: 0.5690, F1-score: 0.5424
+
+
+Generating embeddings for 10000 class prompts (Total Classes: 1000).
+Encoding text prompts: 100%|█████████████████████████████████████████████████████████| 79/79 [00:04<00:00, 16.85it/s]Starting zero-shot classification evaluation on 3923 images...
+Initial GPU Memory Usage: 2518.83 MB
+Evaluating images: 100%|███████████████████████████████████████████████████████████| 123/123 [00:07<00:00, 16.00it/s]
+--- Evaluation Summary ---
+Total Samples Evaluated: 3923
+Total Evaluation Time: 7.71 seconds
+Average Evaluation Loss: 1.6285
+Throughput: 508.80 samples/second
+Max GPU Memory Usage During Evaluation: 2529.85 MB (after encoding images)
+
+Classification Report Summary:
+Accuracy: 0.6044
+Macro Avg - Precision: 0.6230, Recall: 0.6027, F1-score: 0.5713
+Weighted Avg - Precision: 0.6383, Recall: 0.6044, F1-score: 0.5801
+
+
+Generating embeddings for 10000 class prompts (Total Classes: 1000).
+Encoding text prompts: 100%|█████████████████████████████████████████████████████████| 79/79 [00:04<00:00, 16.41it/s]Starting zero-shot classification evaluation on 3923 images...
+Initial GPU Memory Usage: 2516.77 MB
+Evaluating images: 100%|███████████████████████████████████████████████████████████| 123/123 [00:07<00:00, 16.26it/s]
+--- Evaluation Summary ---
+Total Samples Evaluated: 3923
+Total Evaluation Time: 7.59 seconds
+Average Evaluation Loss: 1.6228
+Throughput: 516.81 samples/second
+Max GPU Memory Usage During Evaluation: 2528.76 MB (after encoding images)
+
+Classification Report Summary:
+Accuracy: 0.6176
+Macro Avg - Precision: 0.6262, Recall: 0.6202, F1-score: 0.5851
+Weighted Avg - Precision: 0.6425, Recall: 0.6176, F1-score: 0.5918
+
+
+Generating embeddings for 10000 class prompts (Total Classes: 1000).
+Encoding text prompts: 100%|█████████████████████████████████████████████████████████| 79/79 [00:04<00:00, 17.48it/s]Starting zero-shot classification evaluation on 3923 images...
+Initial GPU Memory Usage: 2520.08 MB
+Evaluating images: 100%|███████████████████████████████████████████████████████████| 123/123 [00:07<00:00, 15.55it/s]
+--- Evaluation Summary ---
+Total Samples Evaluated: 3923
+Total Evaluation Time: 7.93 seconds
+Average Evaluation Loss: 1.6563
+Throughput: 494.49 samples/second
+Max GPU Memory Usage During Evaluation: 2531.10 MB (after encoding images)
+
+Classification Report Summary:
+Accuracy: 0.6342
+Macro Avg - Precision: 0.6507, Recall: 0.6417, F1-score: 0.6098
+Weighted Avg - Precision: 0.6634, Recall: 0.6342, F1-score: 0.6123
+
+
+Generating embeddings for 10000 class prompts (Total Classes: 1000).
+Encoding text prompts: 100%|█████████████████████████████████████████████████████████| 79/79 [00:04<00:00, 16.61it/s]Starting zero-shot classification evaluation on 3923 images...
+Initial GPU Memory Usage: 2518.46 MB
+Evaluating images: 100%|███████████████████████████████████████████████████████████| 123/123 [00:07<00:00, 16.51it/s]
+--- Evaluation Summary ---
+Total Samples Evaluated: 3923
+Total Evaluation Time: 7.47 seconds
+Average Evaluation Loss: 1.6480
+Throughput: 524.84 samples/second
+Max GPU Memory Usage During Evaluation: 2530.44 MB (after encoding images)
+
+Classification Report Summary:
+Accuracy: 0.6444
+Macro Avg - Precision: 0.6514, Recall: 0.6431, F1-score: 0.6133
+Weighted Avg - Precision: 0.6629, Recall: 0.6444, F1-score: 0.6209
+
+
+Generating embeddings for 10000 class prompts (Total Classes: 1000).
+Encoding text prompts: 100%|█████████████████████████████████████████████████████████| 79/79 [00:04<00:00, 15.80it/s]Starting zero-shot classification evaluation on 3923 images...
+Initial GPU Memory Usage: 2520.58 MB
+Evaluating images: 100%|███████████████████████████████████████████████████████████| 123/123 [00:07<00:00, 16.19it/s]
+--- Evaluation Summary ---
+Total Samples Evaluated: 3923
+Total Evaluation Time: 7.62 seconds
+Average Evaluation Loss: 1.5560
+Throughput: 515.07 samples/second
+Max GPU Memory Usage During Evaluation: 2531.60 MB (after encoding images)
+
+Classification Report Summary:
+Accuracy: 0.6577
+Macro Avg - Precision: 0.6711, Recall: 0.6558, F1-score: 0.6295
+Weighted Avg - Precision: 0.6895, Recall: 0.6577, F1-score: 0.6403
+
+
+Generating embeddings for 10000 class prompts (Total Classes: 1000).
+Encoding text prompts: 100%|█████████████████████████████████████████████████████████| 79/79 [00:04<00:00, 17.64it/s]Starting zero-shot classification evaluation on 3923 images...
+Initial GPU Memory Usage: 2520.46 MB
+Evaluating images: 100%|███████████████████████████████████████████████████████████| 123/123 [00:07<00:00, 16.54it/s]
+--- Evaluation Summary ---
+Total Samples Evaluated: 3923
+Total Evaluation Time: 7.46 seconds
+Average Evaluation Loss: 1.4998
+Throughput: 525.98 samples/second
+Max GPU Memory Usage During Evaluation: 2532.44 MB (after encoding images)
+
+Classification Report Summary:
+Accuracy: 0.6607
+Macro Avg - Precision: 0.6751, Recall: 0.6628, F1-score: 0.6340
+Weighted Avg - Precision: 0.6914, Recall: 0.6607, F1-score: 0.6410
+
+
+Generating embeddings for 10000 class prompts (Total Classes: 1000).
+Encoding text prompts: 100%|█████████████████████████████████████████████████████████| 79/79 [00:04<00:00, 17.48it/s]Starting zero-shot classification evaluation on 3923 images...
+Initial GPU Memory Usage: 2520.33 MB
+Evaluating images: 100%|███████████████████████████████████████████████████████████| 123/123 [00:07<00:00, 16.09it/s]
+--- Evaluation Summary ---
+Total Samples Evaluated: 3923
+Total Evaluation Time: 7.66 seconds
+Average Evaluation Loss: 1.4842
+Throughput: 511.86 samples/second
+Max GPU Memory Usage During Evaluation: 2531.35 MB (after encoding images)
+
+Classification Report Summary:
+Accuracy: 0.6882
+Macro Avg - Precision: 0.7104, Recall: 0.6861, F1-score: 0.6637
+Weighted Avg - Precision: 0.7281, Recall: 0.6882, F1-score: 0.6730
+
+
+Generating embeddings for 10000 class prompts (Total Classes: 1000).
+Encoding text prompts: 100%|█████████████████████████████████████████████████████████| 79/79 [00:04<00:00, 17.68it/s]Starting zero-shot classification evaluation on 3923 images...
+Initial GPU Memory Usage: 2520.96 MB
+Evaluating images: 100%|███████████████████████████████████████████████████████████| 123/123 [00:07<00:00, 16.04it/s]
+--- Evaluation Summary ---
+Total Samples Evaluated: 3923
+Total Evaluation Time: 7.69 seconds
+Average Evaluation Loss: 1.4369
+Throughput: 509.91 samples/second
+Max GPU Memory Usage During Evaluation: 2532.94 MB (after encoding images)
+
+Classification Report Summary:
+Accuracy: 0.6944
+Macro Avg - Precision: 0.7152, Recall: 0.6912, F1-score: 0.6685
+Weighted Avg - Precision: 0.7332, Recall: 0.6944, F1-score: 0.6795
+
+
+Generating embeddings for 10000 class prompts (Total Classes: 1000).
+Encoding text prompts: 100%|█████████████████████████████████████████████████████████| 79/79 [00:04<00:00, 16.64it/s]Starting zero-shot classification evaluation on 3923 images...
+Initial GPU Memory Usage: 2521.58 MB
+Evaluating images: 100%|███████████████████████████████████████████████████████████| 123/123 [00:07<00:00, 16.56it/s]
+--- Evaluation Summary ---
+Total Samples Evaluated: 3923
+Total Evaluation Time: 7.44 seconds
+Average Evaluation Loss: 1.4073
+Throughput: 526.97 samples/second
+Max GPU Memory Usage During Evaluation: 2532.60 MB (after encoding images)
+
+Classification Report Summary:
+Accuracy: 0.7000
+Macro Avg - Precision: 0.7188, Recall: 0.7013, F1-score: 0.6800
+Weighted Avg - Precision: 0.7342, Recall: 0.7000, F1-score: 0.6877
+
+
+Generating embeddings for 10000 class prompts (Total Classes: 1000).
+Encoding text prompts: 100%|█████████████████████████████████████████████████████████| 79/79 [00:04<00:00, 17.65it/s]Starting zero-shot classification evaluation on 3923 images...
+Initial GPU Memory Usage: 2516.27 MB
+Evaluating images: 100%|███████████████████████████████████████████████████████████| 123/123 [00:07<00:00, 16.58it/s]
+--- Evaluation Summary ---
+Total Samples Evaluated: 3923
+Total Evaluation Time: 7.44 seconds
+Average Evaluation Loss: 1.3140
+Throughput: 527.17 samples/second
+Max GPU Memory Usage During Evaluation: 2528.26 MB (after encoding images)
+
+Classification Report Summary:
+Accuracy: 0.7109
+Macro Avg - Precision: 0.7318, Recall: 0.7109, F1-score: 0.6901
+Weighted Avg - Precision: 0.7455, Recall: 0.7109, F1-score: 0.6979
+
+
+Generating embeddings for 10000 class prompts (Total Classes: 1000).
+Encoding text prompts: 100%|█████████████████████████████████████████████████████████| 79/79 [00:04<00:00, 17.75it/s]Starting zero-shot classification evaluation on 3923 images...
+Initial GPU Memory Usage: 2524.33 MB
+Evaluating images: 100%|███████████████████████████████████████████████████████████| 123/123 [00:07<00:00, 16.52it/s]
+--- Evaluation Summary ---
+Total Samples Evaluated: 3923
+Total Evaluation Time: 7.47 seconds
+Average Evaluation Loss: 1.2825
+Throughput: 525.51 samples/second
+Max GPU Memory Usage During Evaluation: 2535.35 MB (after encoding images)
+
+Classification Report Summary:
+Accuracy: 0.7285
+Macro Avg - Precision: 0.7473, Recall: 0.7287, F1-score: 0.7117
+Weighted Avg - Precision: 0.7597, Recall: 0.7285, F1-score: 0.7182
+
+
+Generating embeddings for 10000 class prompts (Total Classes: 1000).
+Encoding text prompts: 100%|█████████████████████████████████████████████████████████| 79/79 [00:04<00:00, 17.70it/s]Starting zero-shot classification evaluation on 3923 images...
+Initial GPU Memory Usage: 2517.27 MB
+Evaluating images: 100%|███████████████████████████████████████████████████████████| 123/123 [00:07<00:00, 16.66it/s]
+--- Evaluation Summary ---
+Total Samples Evaluated: 3923
+Total Evaluation Time: 7.40 seconds
+Average Evaluation Loss: 1.2405
+Throughput: 529.88 samples/second
+Max GPU Memory Usage During Evaluation: 2529.26 MB (after encoding images)
+
+Classification Report Summary:
+Accuracy: 0.7301
+Macro Avg - Precision: 0.7509, Recall: 0.7309, F1-score: 0.7139
+Weighted Avg - Precision: 0.7657, Recall: 0.7301, F1-score: 0.7214
+
+
+Generating embeddings for 10000 class prompts (Total Classes: 1000).
+Encoding text prompts: 100%|█████████████████████████████████████████████████████████| 79/79 [00:04<00:00, 16.42it/s]Starting zero-shot classification evaluation on 3923 images...
+Initial GPU Memory Usage: 2523.08 MB
+Evaluating images: 100%|███████████████████████████████████████████████████████████| 123/123 [00:07<00:00, 16.22it/s]
+
+--- Evaluation Summary ---
+Total Samples Evaluated: 3923
+Total Evaluation Time: 7.60 seconds
+Average Evaluation Loss: 1.1876
+Throughput: 516.16 samples/second
+Max GPU Memory Usage During Evaluation: 2534.10 MB (after encoding images)
+
+Classification Report Summary:
+Accuracy: 0.7408
+Macro Avg - Precision: 0.7615, Recall: 0.7409, F1-score: 0.7248
+Weighted Avg - Precision: 0.7762, Recall: 0.7408, F1-score: 0.7326
+
+
+Generating embeddings for 10000 class prompts (Total Classes: 1000).
+Encoding text prompts: 100%|█████████████████████████████████████████████████████████| 79/79 [00:04<00:00, 17.01it/s]Starting zero-shot classification evaluation on 3923 images...
+Initial GPU Memory Usage: 2516.52 MB
+Evaluating images: 100%|███████████████████████████████████████████████████████████| 123/123 [00:07<00:00, 16.15it/s]
+--- Evaluation Summary ---
+Total Samples Evaluated: 3923
+Total Evaluation Time: 7.64 seconds
+Average Evaluation Loss: 1.1925
+Throughput: 513.61 samples/second
+Max GPU Memory Usage During Evaluation: 2528.51 MB (after encoding images)
+
+Classification Report Summary:
+Accuracy: 0.7408
+Macro Avg - Precision: 0.7608, Recall: 0.7430, F1-score: 0.7257   
+Weighted Avg - Precision: 0.7759, Recall: 0.7408, F1-score: 0.7328
+
+
+Generating embeddings for 10000 class prompts (Total Classes: 1000).
+Encoding text prompts: 100%|█████████████████████████████████████████████████████████| 79/79 [00:04<00:00, 16.89it/s]Starting zero-shot classification evaluation on 3923 images...
+Initial GPU Memory Usage: 2521.83 MB
+Evaluating images: 100%|███████████████████████████████████████████████████████████| 123/123 [00:07<00:00, 16.43it/s]
+
+--- Evaluation Summary ---
+Total Samples Evaluated: 3923
+Total Evaluation Time: 7.50 seconds
+Average Evaluation Loss: 1.1819
+Throughput: 523.31 samples/second
+Max GPU Memory Usage During Evaluation: 2532.85 MB (after encoding images)
+
+Classification Report Summary:
+Accuracy: 0.7436
+Macro Avg - Precision: 0.7616, Recall: 0.7452, F1-score: 0.7284
+Weighted Avg - Precision: 0.7767, Recall: 0.7436, F1-score: 0.7357
+
+
+Generating embeddings for 10000 class prompts (Total Classes: 1000).
+Starting zero-shot classification evaluation on 3923 images...
+Initial GPU Memory Usage: 2521.83 MB
+
+--- Evaluation Summary ---
+Total Samples Evaluated: 3923
+Total Evaluation Time: 7.55 seconds
+Average Evaluation Loss: 1.1715
+Throughput: 519.39 samples/second
+Max GPU Memory Usage During Evaluation: 2531.01 MB (after encoding images)
+
+Classification Report Summary:
+Accuracy: 0.7443
+Macro Avg - Precision: 0.7630, Recall: 0.7464, F1-score: 0.7297
+Weighted Avg - Precision: 0.7775, Recall: 0.7443, F1-score: 0.7363
+
+
+--- Evaluation Summary ---
+Total Samples Evaluated: 3923
+Total Evaluation Time: 7.42 seconds
+Average Evaluation Loss: 1.1713
+Throughput: 528.80 samples/second
+Max GPU Memory Usage During Evaluation: 2532.85 MB (after encoding images)
+
+Classification Report Summary:
+Accuracy: 0.7466
+Macro Avg - Precision: 0.7664, Recall: 0.7489, F1-score: 0.7328
+Weighted Avg - Precision: 0.7803, Recall: 0.7466, F1-score: 0.7390

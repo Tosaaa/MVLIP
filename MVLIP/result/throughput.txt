@@ -1,0 +1,8 @@
+MambaVision
+Throughput: 626.35 samples/second
+
+Swin
+Throughput: 443.51 samples/second
+
+CLIP
+Throughput: 469.22 samples/second

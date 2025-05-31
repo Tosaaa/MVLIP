@@ -234,14 +234,13 @@ def train_clip(model, dataloader, num_epochs=10, lr=1e-4, save_path="./checkpoin
 
     start_epoch = 0
 
-    optimizer = torch.optim.AdamW(model.parameters(), lr=1e-4, weight_decay=0.01)
+    optimizer = torch.optim.AdamW(model.parameters(), lr, weight_decay=0.01)
     
     scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(
         optimizer, T_max=num_epochs * len(dataloader)
     )
 
     def contrastive_loss(logits_per_image, logits_per_text):
-        """CLIP 스타일 대조 학습 손실"""
         batch_size = logits_per_image.shape[0]
         labels = torch.arange(batch_size, device=logits_per_image.device)
         
@@ -308,6 +307,7 @@ def train_clip(model, dataloader, num_epochs=10, lr=1e-4, save_path="./checkpoin
 
 def evaluate_zero_shot_classification(model, val_dataloader):
     model.eval() # Set model to evaluation mode
+    print("--------------------Evaluation Start--------------------")
 
     val_class_names = val_dataloader.dataset.get_class_names()
     text_templates = val_dataloader.dataset.text_templates
@@ -339,7 +339,7 @@ def evaluate_zero_shot_classification(model, val_dataloader):
     text_features_per_class = text_features.view(num_classes, num_templates, -1).mean(dim=1)
     text_features_per_class = text_features_per_class / text_features_per_class.norm(dim=-1, keepdim=True) # Normalize again after averaging
 
-    print(f"Starting zero-shot classification evaluation on {len(val_dataloader.dataset)} images...")
+    print(f"\nStarting zero-shot classification evaluation on {len(val_dataloader.dataset)} images...")
     
     all_true_labels = []
     all_predicted_labels = []
@@ -397,18 +397,20 @@ def evaluate_zero_shot_classification(model, val_dataloader):
     
     # Classification Report (Accuracy, Precision, Recall, F1-score)
 
-    report = classification_report(all_true_labels, all_predicted_labels, labels=list(range(len(val_class_names))), target_names=val_class_names, zero_division=0)
-    print("\nClassification Report:")
-    print(report)
+    report_dict = classification_report(all_true_labels, all_predicted_labels, labels=list(range(len(val_class_names))), target_names=val_class_names, zero_division=0, output_dict=True)
+    print("\nClassification Report Summary:")
+    print(f"Accuracy: {report_dict['accuracy']:.4f}")
+    print(f"Macro Avg - Precision: {report_dict['macro avg']['precision']:.4f}, Recall: {report_dict['macro avg']['recall']:.4f}, F1-score: {report_dict['macro avg']['f1-score']:.4f}")
+    print(f"Weighted Avg - Precision: {report_dict['weighted avg']['precision']:.4f}, Recall: {report_dict['weighted avg']['recall']:.4f}, F1-score: {report_dict['weighted avg']['f1-score']:.4f}")
 
 if __name__ == "__main__":
     # ImageNet-mini 데이터 경로 설정
     data_path = "./imagenet-mini"  # 실제 경로로 변경
     words_txt_path = "./words.txt"  # words.txt 파일 경로
     
-    model, preprocess = clip.load("ViT-B/32", device=device)
+    # model, preprocess = clip.load("ViT-B/32", device=device)
     # model, preprocess = clip.load("ViT-B/32", "nvidia/MambaVision-B-21K", device=device)
-    # model, preprocess = clip.load("ViT-B/32", "timm/swin_base_patch4_window7_224.ms_in22k_ft_in1k", device=device)
+    model, preprocess = clip.load("ViT-B/32", "timm/swin_base_patch4_window7_224.ms_in22k_ft_in1k", device=device)
     model = model.to(device)
 
     # 데이터로더 생성
@@ -435,6 +437,11 @@ if __name__ == "__main__":
     ###############################################
 
     ##################### Eval #####################
-    # model.load_state_dict(torch.load('./checkpoints/CLIP/best_model.pth'))
+    # for epoch in range(0, 20):
+    #     checkpoint = torch.load('./checkpoints/Swin-fp32/checkpoint_epoch_' + str(epoch+1) + ".pth")
+    #     model.load_state_dict(checkpoint["model_state_dict"])
+    #     evaluate_zero_shot_classification(model, val_dataloader)
+
+    # model.load_state_dict(torch.load('./checkpoints/MVLIP-fp32/best_model.pth'))
     evaluate_zero_shot_classification(model, val_dataloader)
     ################################################
